@@ -11,86 +11,68 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
- <!--<div class="portfolio">
-      <div class="portfolio__header">
-         <div class="portfolio__title title">Meu Portifólio</div>
-         <div class="portfolio__text">Estes são alguns dos trabalhos e  projetos que já realizei</div>
-      </div>
-      <div class="portfolio__button-row">
-        <div class="button">
-          <button>Todos</button>
-        </div>
-        <div class="button">
-          <button>Wep App</button>
-        </div>
-        <div class="button">
-          <button>Data Analysis</button>
-        </div>
-        <div class="button">
-          <button>Outros</button>
-        </div>
-      </div>
-      <div class="portfolio__section">
-        <div class="section-rectangle">
-          <div class="section-rectangle__item"></div>
-          <div class="section-rectangle__item"></div>
-          <div class="section-rectangle__item"></div>
-          <div class="section-rectangle__item"></div>
-          <div class="section-rectangle__item"></div>
-          <div class="section-rectangle__item"></div>
-        </div>
-      </div>
- </div>!-->
-
- <div class="home">
-  <div class="home__body">
-  <div class="home__header">
-    <div class="logo-title">
-      <div class="logo-title__icon">
-        <img src="svg/Group.svg" alt="logo">
-      </div>
-      <div class="logo-title__title">Matheus Campos</div>
+ <div class="conteiner">
+  <div class="conteiner__body">
+  <header class="header">
+    <a class="header__logo" href="/">
+      <img class="logo header__logo logo_cyclo_grey" src="svg/Group.svg" alt="logo">
+    </a>
+    <div class="header__title">Matheus Campos</div>
+    <div class="header__adapt">
+      <span></span>
+     <nav class="header__menu">
+      <ul class="header__list">
+        <li>
+          <a class="link header__list item_link_grey" href="/">Home</a>
+        </li>
+        <li>
+          <a class="link header__list item_link_grey" href="/">Sobre</a>
+        </li>
+        <li>
+          <a class="link header__list item_link_grey" href="/">Portifólio</a>
+        </li>
+        <li>
+          <a class="link header__list item_link_grey" href="/">Serviços</a>
+        </li>
+        <li>
+          <a class="link header__list item_link_grey" href="/">Resumo</a>
+        </li>
+        <li>
+          <a class="link header__list item_link_grey" href="/">Contato</a>
+        </li>
+      </ul>
+     </nav>
     </div>
-    <nav class="home__menu">
-      <div class="home__item"><a href="/">home</a></div>
-      <div class="home__item"><a href="/">sobre</a></div>
-      <div class="home__item"><a href="/">portifólio</a></div>
-      <div class="home__item"><a href="/">serviços</a></div>
-      <div class="home__item"><a href="/">resumo</a></div>
-      <div class="home__item"><a href="/">contato</a></div>
-    </nav>
-  </div>
-  <div class="home__content">
-    <div class="home__column">
-      <div class="home__welcome">
-        <div class="home__text">EU SOU UM PROGRAMADOR</div>
+  </header>
+  <main class="main">
+    <div class="content">
+      <section class="content__title">
+        <p class="content__text ">Olá pessoas, </p>
+        <h1 class="content__text">EU SOU UM 
+          PROGRAMADOR</h1>
+        <p class="content__text">Seja bem-vindo ao meu portifólio website</p>
+      </section>
+      <div class="button content__button button_theme_dark" onclick="alert('hello')">
+        Saiba mais sobre mim
       </div>
-      <div class="home__button">
-        <div class="button">
-          <button>Saiba mais sobre mim</button>
+      <section class="social">
+        <div class="social__item">
+            <img src="svg/Git.svg" alt="git-logo">
         </div>
-      </div>
-      <div class="home__social">
-        <div class="icon-social">
-          <div class="icon-social__git">
-            <img src="svg/Git.svg" alt="git">
-          </div>
-          <div class="icon-social__linkedin">
-            <img src="svg/Linkedin.svg" alt="linkedin">
-          </div>
-          <div class="con-social__instagram">
-            <img src="svg/Instagram.svg" alt="instagram">
-          </div>
+        <div class="social__item">
+            <img src="svg/Linkedin.svg" alt="linkedin-logo">
         </div>
-      </div>
+        <div class="social__item">
+            <img src="svg/Instagram.svg" alt="instagram-logo">
+        </div>
+      </section>
     </div>
-    <div class="home__imgane">
-      <div class="home__imgane_right">
-        <img src="svg/Home_art 1.svg" alt="imgane_right">
-      </div>
+    <div class="content__image">
+      <img src="svg/Home_art 1.svg" alt="cont-image">
     </div>
-  </div>
-  </div>
+  </main>
+  <footer class="footer"> ,,, </footer>
  </div>
+</div>
 </body>
 </html>
