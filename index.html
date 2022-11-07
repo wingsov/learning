@@ -4,20 +4,20 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bem</title>
+  <title>Bem & grid</title>
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
- <div class="conteiner">
-  <div class="conteiner__body">
+ <div class=".container-fluid">
+  <div class="conteiner">
   <header class="header">
     <a class="header__logo" href="/">
-      <img class="logo header__logo logo_cyclo_grey" src="svg/Group.svg" alt="logo">
+      <img class="logo header__logo logo_cyclo_grey" src="svg/home/Group.svg" alt="logo">
     </a>
-    <div class="header__title">Matheus Campos</div>
+    <div class="name__title header__title_home">Matheus Campos</div>
     <div class="header__adapt">
       <span></span>
      <nav class="header__menu">
@@ -48,7 +48,7 @@
     <div class="content">
       <section class="content__title">
         <p class="content__text ">Olá pessoas, </p>
-        <h1 class="content__text">EU SOU UM 
+        <h1 class="content__text_big">EU SOU UM 
           PROGRAMADOR</h1>
         <p class="content__text">Seja bem-vindo ao meu portifólio website</p>
       </section>
@@ -57,21 +57,109 @@
       </div>
       <section class="social">
         <div class="social__item">
-            <img src="svg/Git.svg" alt="git-logo">
+            <img src="svg/home/Git.svg" alt="git-logo">
         </div>
         <div class="social__item">
-            <img src="svg/Linkedin.svg" alt="linkedin-logo">
+            <img src="svg/home/Linkedin.svg" alt="linkedin-logo">
         </div>
         <div class="social__item">
-            <img src="svg/Instagram.svg" alt="instagram-logo">
+            <img src="svg/home/Instagram.svg" alt="instagram-logo">
         </div>
       </section>
     </div>
     <div class="content__image">
-      <img src="svg/Home_art 1.svg" alt="cont-image">
+      <img src="svg/home/Home_art 1.svg" alt="cont-image">
     </div>
   </main>
-  <footer class="footer"></footer>
+ </div>
+ <div class="conteiner__about">
+    <div class="about-matheus">
+      <div class="about-matheus__photo">
+        <img src="svg/about/matheus_about 1.svg" alt="matheus_photo">
+      </div>
+      <div class="name__title name__title_about">Matheus Campos</div>
+      <p class="name__title_subtitle">My name is Matheus Amauri de Jesus Campos 👋
+        I'm from Brazil, São José dos Campos/SP. Studying, 4th period, Systems Analysis and Development at the Fatec - São José dos Campos.
+      </p>
+    </div>
+    <div class="skills-matheus">
+     <div class="section__title">
+      <div class="section__title title_black_word">Hard</div>
+      <div class="section__title title_grey_word">Skills</div>
+     </div>
+     <div class="skills-matheus__item">
+      <div class="skills-matheus__item1 skills-matheus_item_row_center">
+        <div class="item_name_grey">Pyton</div>
+        <div class="item_icon_black"><img src="svg/about/Vector-black.svg" alt="vector-black"></div>
+        <div class="item_icon_black"><img src="svg/about/Vector-black.svg" alt="vector-black"></div>
+        <div class="item_icon_black"><img src="svg/about/Vector-black.svg" alt="vector-black"></div>
+        <div class="item_icon_black"><img src="svg/about/Vector-black.svg" alt="vector-black"></div>
+        <div class="item_icon_grey"><img src="svg/about/Vector-grey.svg" alt="vector-grey"></div>
+      </div>
+      <div class="skills-matheus__item2 skills-matheus_item_row_center">
+        <div class="item_name_grey">HTML</div>
+        <div class="item_icon_black"><img src="svg/about/Vector-black.svg" alt="vector-black"></div>
+        <div class="item_icon_black"><img src="svg/about/Vector-black.svg" alt="vector-black"></div>
+        <div class="item_icon_black"><img src="svg/about/Vector-black.svg" alt="vector-black"></div>
+        <div class="item_icon_black"><img src="svg/about/Vector-black.svg" alt="vector-black"></div>
+        <div class="item_icon_grey"><img src="svg/about/Vector-grey.svg" alt="vector-grey"></div>
+      </div>
+      <div class="skills-matheus__item3 skills-matheus_item_row_center">
+        <div class="item_name_grey">React</div>
+        <div class="item_icon_black"><img src="svg/about/Vector-black.svg" alt="vector-black"></div>
+        <div class="item_icon_black"><img src="svg/about/Vector-black.svg" alt="vector-black"></div>
+        <div class="item_icon_black"><img src="svg/about/Vector-black.svg" alt="vector-black"></div>
+        <div class="item_icon_grey"><img src="svg/about/Vector-grey.svg" alt="vector-grey"></div>
+        <div class="item_icon_grey"><img src="svg/about/Vector-grey.svg" alt="vector-grey"></div>
+      </div>
+      <div class="skills-matheus__item4 skills-matheus_item_row_center">
+        <div class="item_name_grey">C</div>
+        <div class="item_icon_black"><img src="svg/about/Vector-black.svg" alt="vector-black"></div>
+        <div class="item_icon_black"><img src="svg/about/Vector-black.svg" alt="vector-black"></div>
+        <div class="item_icon_grey"><img src="svg/about/Vector-grey.svg" alt="vector-grey"></div>
+        <div class="item_icon_grey"><img src="svg/about/Vector-grey.svg" alt="vector-grey"></div>
+        <div class="item_icon_grey"><img src="svg/about/Vector-grey.svg" alt="vector-grey"></div>
+      </div>
+      <div class="skills-matheus__item5 skills-matheus_item_row_center">
+        <div class="item_name_grey">JavaScript</div>
+        <div class="item_icon_black"><img src="svg/about/Vector-black.svg" alt="vector-black"></div>
+        <div class="item_icon_black"><img src="svg/about/Vector-black.svg" alt="vector-black"></div>
+        <div class="item_icon_black"><img src="svg/about/Vector-black.svg" alt="vector-black"></div>
+        <div class="item_icon_grey"><img src="svg/about/Vector-grey.svg" alt="vector-grey"></div>
+        <div class="item_icon_grey"><img src="svg/about/Vector-grey.svg" alt="vector-grey"></div>
+      </div>
+      <div class="skills-matheus__item6 skills-matheus_item_row_center">
+        <div class="item_name_grey">CSS</div>
+        <div class="item_icon_black"><img src="svg/about/Vector-black.svg" alt="vector-black"></div>
+        <div class="item_icon_black"><img src="svg/about/Vector-black.svg" alt="vector-black"></div>
+        <div class="item_icon_black"><img src="svg/about/Vector-black.svg" alt="vector-black"></div>
+        <div class="item_icon_grey"><img src="svg/about/Vector-grey.svg" alt="vector-grey"></div>
+        <div class="item_icon_grey"><img src="svg/about/Vector-grey.svg" alt="vector-grey"></div>
+      </div>
+      <div class="skills-matheus__item7 skills-matheus_item_row_center">
+        <div class="item_name_grey">MySQL</div>
+        <div class="item_icon_black"><img src="svg/about/Vector-black.svg" alt="vector-black"></div>
+        <div class="item_icon_black"><img src="svg/about/Vector-black.svg" alt="vector-black"></div>
+        <div class="item_icon_black"><img src="svg/about/Vector-black.svg" alt="vector-black"></div>
+        <div class="item_icon_grey"><img src="svg/about/Vector-grey.svg" alt="vector-grey"></div>
+        <div class="item_icon_grey"><img src="svg/about/Vector-grey.svg" alt="vector-grey"></div>
+      </div>
+      <div class="skills-matheus__item8 skills-matheus_item_row_center">
+        <div class="item_name_grey">Prostgres</div>
+        <div class="item_icon_black"><img src="svg/about/Vector-black.svg" alt="vector-black"></div>
+        <div class="item_icon_black"><img src="svg/about/Vector-black.svg" alt="vector-black"></div>
+        <div class="item_icon_grey"><img src="svg/about/Vector-grey.svg" alt="vector-grey"></div>
+        <div class="item_icon_grey"><img src="svg/about/Vector-grey.svg" alt="vector-grey"></div>
+        <div class="item_icon_grey"><img src="svg/about/Vector-grey.svg" alt="vector-grey"></div>
+      </div>
+     </div>
+    </div>
+ </div>
+  <footer class="footer">
+    <div class="qotation"><span>“Aprender</span> é a unica coisa que <span>a mente não se cansa</span>, nunca tem medo e nunca se arrepende”
+    </div>
+    <div class="leo">~Leonardo da Vinci</div>
+  </footer>
  </div>
 </div>
 </body>

@@ -5,37 +5,36 @@ html, body {
  height: 100%;
 }
 
-.conteiner {
+.container-fluid {
   display: grid;
   min-height: 100%;
   overflow: hidden
 }
 
-.conteiner__body {
- max-width: 1417px;
-  margin: 0px auto;
+.conteiner {
+ max-width: 1920px;
   padding: 0px 250px;
 }
 
 @media (max-widht: 1417px){
-    .conteiner__body{
+    .conteiner {
       max-width: 1180px;
     }
 }
 @media (max-widht: 1200px){
-  .conteiner__body{
+  .conteiner {
     max-width: 970px;
   }
 }
 
 @media (max-widht: 992px){
-  .conteiner__body{
+  .conteiner {
     max-width: 750px;
   }
 }
 
 @media (max-widht: 768px){
-  .conteiner__body {
+  .conteiner {
     max-width: none;
   }
 }
@@ -46,7 +45,7 @@ html, body {
   align-items: center;
 }
 
-.header__title {
+.name__title {
   font-style: normal;
   font-weight: 900;
   font-size: 36px;
@@ -84,7 +83,7 @@ html, body {
   justify-content: space-between;
 }
 
-h1 {
+.content__text_big {
 font-style: normal;
 font-weight: 900;
 font-size: 72px;
@@ -92,7 +91,7 @@ color: #445964;
 margin: 0;
 }
 
-p {
+.content__text{
 font-style: normal;
 font-weight: 500;
 font-size: 24px;
@@ -103,9 +102,10 @@ margin: 0;
 .button_theme_dark {
   width: 310px;
   height: 65px;
+  border-radius: 10px;
+  cursor: pointer;
   background-color: #263138;
   text-align: center;
-  border-radius: 10px;
   font-style: normal;
   line-height: 65px;
   font-weight: 900;
@@ -120,4 +120,110 @@ margin: 0;
   align-content: center;
   align-items: flex-end;
   gap: 8px;
+  cursor: pointer;
+}
+
+.conteiner__about{
+  max-width: 1920px;
+  padding: 0px 444px;
+}
+
+.about-matheus{
+  display: grid;
+  grid-auto-flow: row;
+  margin: 90px 0;
+  align-items: center;
+  align-content: center;
+}
+
+.about-matheus__photo{
+  display: flex;
+  justify-content: center;
+}
+
+.name__title_about{
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.name__title_subtitle{
+  display: flex;
+  text-align: center;
+  font-size: 20px;
+}
+
+.section__title {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 75px;
+}
+
+.title_black_word {
+  color: #263138
+}
+
+.title_grey_word {
+  color: #445964;
+}
+
+
+.skills-matheus__item{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-content: center;
+  grid-column-gap: 25px;
+  grid-row-gap: 50px;
+  margin: 90px 0;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 42px;
+  color: #445964;
+}
+
+.skills-matheus_item_row_center{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 4px;
+  grid-row-gap: 16px;
+}
+
+.item_name_grey {
+  grid-column-start: 1;
+  grid-column-end: 6;
+  text-align: center;
+}
+
+.footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.qotation{
+  text-align: center;
+  max-width: 620px;
+  font-weight: 500;
+  font-size: 24px;
+  color: #445964;
+}
+
+span{
+  font-weight: 900;
+  font-size: 28px;
+  color: #263138;
+}
+
+.leo{
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  color: #263138;
 }
