@@ -104,7 +104,7 @@ margin: 0;
 .button_theme_dark {
   width: 310px;
   height: 65px;
-  border-radius: 10px;
+  border-radius: 15px;
   cursor: pointer;
   background-color: #263138;
   text-align: center;
@@ -140,7 +140,7 @@ margin: 0;
 .about-matheus{
   display: grid;
   grid-auto-flow: row;
-  margin: 90px 0;
+  margin: 100px 0;
   align-items: center;
   align-content: center;
 }
@@ -211,6 +211,124 @@ margin: 0;
 }
 
 /* About end  */
+
+
+/* Portfolio start */
+
+.portfolio__title-button {
+  max-width: 1920px;
+  padding: 0px 250px;
+}
+
+.portfolio__header{
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  justify-items: center;
+  margin: 100px 0;
+}
+
+.portfolio__title {
+  display: flex;
+  align-items:flex-end;
+  font-weight: 900;
+  font-size: 64px;
+}
+
+.portfolio__text_right {
+  display: flex;
+  align-items:flex-end;
+  width: 400px;
+  padding-bottom: 9px;
+  font-weight: 500;
+  font-size: 24px;
+  color: #445964;
+}
+
+.button_row {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.button__portfolio_theme_dark{
+  display: flex;
+  width: 170px;
+  height: 65px;
+  border-radius: 15px;
+  cursor: pointer;
+  background-color: #263138;
+  align-items: center;
+  justify-content: center;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  color: #FFFFFF;
+}
+
+.button__portfolio_theme_grey{
+  display: flex;
+  width: 170px;
+  height: 65px;
+  border-radius: 15px;
+  cursor: pointer;
+  background-color: #DFDFDF;
+  align-items: center;
+  justify-content: center;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  color: #445964;
+}
+
+.portfolio__item {
+  max-width: 1920px;
+  padding: 0px 444px;
+  display: grid;
+  margin: 90px 0;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  align-items: center;
+  column-gap: 30px;
+}
+
+.item_dark_grey-1 {
+  width: 340px;
+  height: 190px;
+  background-color: #263138;
+  align-self:flex-start;
+  border-radius: 15px;
+}
+
+.item_dark_grey-2 {
+  width: 340px;
+  height: 190px;
+  background-color: #263138;
+  align-self:flex-end;
+  border-radius: 15px;
+}
+
+.item_green_grey{
+  width: 340px;
+  height: 250px;
+  background-color: #445964;
+  border-radius: 15px;
+}
+
+.item_soft_grey-1{
+  width: 340px;
+  height: 190px;
+  background-color: #DFDFDF;
+  align-self:flex-start;
+  border-radius: 15px;
+}
+
+.item_soft_grey-2 {
+  width: 340px;
+  height: 250px;
+  background-color: #DFDFDF;
+  border-radius: 15px;
+}
 
 
 /* Footer start  */
