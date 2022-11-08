@@ -38,6 +38,8 @@ html, body {
     max-width: none;
   }
 }
+/* Home start */
+
 
 .header {
   display: grid;
@@ -123,6 +125,13 @@ margin: 0;
   cursor: pointer;
 }
 
+
+/* Home end */
+
+
+/* About start*/
+
+
 .conteiner__about{
   max-width: 1920px;
   padding: 0px 444px;
@@ -201,6 +210,11 @@ margin: 0;
   text-align: center;
 }
 
+/* About end  */
+
+
+/* Footer start  */
+
 .footer{
   display: flex;
   flex-direction: column;
@@ -227,3 +241,5 @@ span{
   font-size: 36px;
   color: #263138;
 }
+
+/* Footer end  */
